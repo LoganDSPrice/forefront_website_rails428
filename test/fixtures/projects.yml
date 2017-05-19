@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team_name: MyString
+  location: MyString
+  area: 1
+  completion_date: 2017-04-26
+  text: MyText
+
+two:
+  team_name: MyString
+  location: MyString
+  area: 1
+  completion_date: 2017-04-26
+  text: MyText

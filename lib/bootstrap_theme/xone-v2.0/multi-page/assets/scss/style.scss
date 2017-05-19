@@ -1,0 +1,77 @@
+/*
+
+Project      : xs - Creative One Page Parallax Template
+Version      : v1.3
+Last update  : 14 Nov. 2016
+Author       : Design_mylife (Rakesh Sharma)
+Support email: mylifedesign143@gmail.com
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900');
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_base.scss";
+@import "_buttons.scss";
+@import "_header.scss";
+@import "_portfolio.scss";
+@import "_team.scss";
+@import "_blog.scss";
+@import "_pagination.scss";
+@import "_left-menu.scss";
+@import "_footer.scss";
+
+
+.page_header{
+    padding: 90px 0;
+    padding-top: 50px;
+    h1{
+        font-size: 55px;
+        line-height: 70px;
+        color:#aeaeae;
+        margin-bottom:30px;
+        font-weight:700;
+        letter-spacing:-1px;
+          font-family: $title-font;
+        span{
+            color:#000;
+            font-style: italic;
+        }
+    }
+    .lead{
+        margin: 0px;    
+    }
+}
+.clients{
+    padding: 50px 0;
+    background: #fff;
+    img{
+        opacity: 0.3;
+    }
+}
+.contact-details ul li a {
+  font-size: 30px;
+  color: #999;
+  &:hover {
+  color: $skin-color;
+}
+}
+
+
+@media(max-width:767px){
+    header {
+    padding: 0;
+}
+.space-80{
+    height: 40px;
+}
+.page_header h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+}
+
+@media(max-width:576px){
+    .navbar-toggleable-sm>.container{
+        width: 100%;
+    }
+}

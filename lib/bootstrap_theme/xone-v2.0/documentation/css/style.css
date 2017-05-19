@@ -1,0 +1,90 @@
+/*
+Amaze documentation
+Author: Design_mylife
+Project url: http://bootstraplovers.com/themeforest-html/amaze/
+Support email: mylifedesign143@gmail.com
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,300italic);
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    font-weight: 400;
+}
+a{
+    color:  #1b6d85;
+}
+h1,h2,h3,h4,h5{
+    margin-top: 0px;
+    font-weight: 400;
+    color:#333;
+}
+.color{
+    color : #BFA67A;
+}
+.white-bg ul.list li{
+    font-weight: normal;
+    padding: 10px 0;
+}
+.white-bg .info-list li{
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.white-bg .info-list li strong{
+    display: inline-block;
+    width: 130px;
+}
+.credit-list a{
+    display: inline-block;
+    padding: 3px 5px;
+    background-color: red;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.credit-list li{
+    border-bottom: 1px solid #eee;
+}
+@media(min-width:992px){
+    .container{
+        width: 960px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 960px;
+    }
+}
+.s {
+    color: #d44950;
+}
+.na, .color {
+    color: #4f9fcf;
+}
+.c {
+    color: #999;
+}
+.white-bg{
+    padding: 25px 15px;
+    background: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.white-bg.header{
+    background: #43baa5;
+}
+.header h2,.header p{
+    color: #fff;
+}
+.white-bg ul li{
+    font-weight:bold;
+}
+.white-bg ul li ul li{
+    font-weight: normal;
+}
