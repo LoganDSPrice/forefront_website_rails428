@@ -1,0 +1,30 @@
+<section id="team-show" class="overflow-hidden slider-banner">
+  <div class="main-slider">
+    <ul class="slides">
+      <li>
+        <img src="<%= @team_member.secondary_image %>" alt="" class="img-fluid img-hero">
+        <div class="slider-overlay">
+          <div class="slider-table">
+            <div class="slider-vm">
+              <div class="container text-center text-overlay">
+                <h1><%= @team_member.first_name + " " + @team_member.last_name %></h1>
+              </div>
+            </div>
+          </div>
+        </div><!--slider overlay end-->
+      </li>
+    </ul>
+  </div>
+</section>
+<div class='container'>
+  <div class='space-50'></div>
+  <div class="row">
+    <div class="col-md-12 team-bio">
+      <h3><%= @team_member.role %></h3>
+      <p>
+        <%= @team_member.bio %>
+      </p>
+    </div>
+  </div>
+  <div class='space-80'></div>
+</div>

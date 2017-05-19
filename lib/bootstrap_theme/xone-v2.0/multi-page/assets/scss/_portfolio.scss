@@ -1,0 +1,28 @@
+/*
+Portfolio Style
+*/
+.cbp-l-filters-alignLeft{
+    margin-bottom: 20px;
+}
+.cbp-l-filters-alignLeft .cbp-filter-item{
+    border: 0px;
+    padding: 0px 0px;
+    margin: 0 20px 10px 0;
+    font-weight: 400;
+    font-family: $default-font;
+    font-size: 13px;
+}
+.cbp-l-caption-desc{
+    font-family: $default-font;
+    font-size: 14px;
+}
+.cbp-l-filters-alignLeft .cbp-filter-item.cbp-filter-item-active{
+    border: 0px;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    color: #000;
+}
+.cbp-l-caption-title{
+    font-family: $title-font;
+    font-size: 18px;
+}
